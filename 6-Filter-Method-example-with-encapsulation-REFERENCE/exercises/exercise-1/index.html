@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise 1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+<div class="wrapper">
+    <h1>
+        <span class="logo">Jukebox.io</span>
+        <br/>
+        your one stop music source.
+    </h1>
+    <p>Hottest recommendations engine this side of the interwebs!</p>
+    <form action="#" method="POST" class="subscribe-form">
+        <fieldset>
+            <legend>Your details</legend>
+            <div class="subscribe-form__inputs">
+                <label for="firstName">
+                    First Name:
+                </label>
+                <input type="text" name="name" id="firstName"/>
+                <div class="error__container">
+                    <svg role="img"
+                         height="16"
+                         width="16"
+                         fill="#ff0000"
+                         aria-label="Error:"
+                         viewBox="0 0 16 16"
+                         id="error-icon"
+                    >
+                        <path d="M2.343 2.343a8 8 0 1111.314 11.314A8 8 0 012.343 2.343zm5.099 8.738a.773.773 0 00-.228.558.752.752 0 00.228.552.75.75 0 00.552.229.773.773 0 00.558-.229.743.743 0 00.234-.552.76.76 0 00-.234-.558.763.763 0 00-.558-.234.743.743 0 00-.552.234zm-.156-7.23l.312 6.072h.804l.3-6.072H7.286z"
+                        ></path>
+                    </svg>
+                    <p class ="error-message"></p>
+                </div>
+            </div>
+        </fieldset>
+        <input type="submit" name="submit" value="Subscribe"/>
+    </form>
+</div>
+</body>
+</html>
