@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  background-color: #8a8782;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+#circleBTN {
+  border-radius: 7px;
+  padding: 25px;
+  border: 1px solid darkgray;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
